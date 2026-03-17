@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatima Oyiza Jimoh — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Frontend Developer specialising in React, Next.js and TypeScript."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/assets/foj-logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cd"></div>
+    <div id="cr"></div>
+
+    <nav>
+      <div class="container nav-inner">
+        <a href="#hero" class="nav-logo">
+          <img src="/assets/foj-logo.png" alt="logo" />
+        </a>
+        <ul class="nav-links" id="nl">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hb" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div>
+            <div class="hero-tag">
+              <span class="hero-dot"></span> Available for new opportunities
+            </div>
+            <h1 class="hero-name">Fatima<br /><em>Oyiza</em><br />Jimoh</h1>
+            <p class="hero-role">Front-End Developer</p>
+            <p class="hero-desc">
+              I build responsive, high-performing web applications with React,
+              Next.js and TypeScript — turning designs into clean, accessible
+              interfaces that feel as good as they look.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" /></svg
+                >View My Work
+              </a>
+              <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img class="hero-photo" src="./assets/My-pic.jpg" alt="my-image" />
+            <div class="hero-chip chip-exp">
+              <i data-lucide="briefcase-business" style="font-size: 1rem"></i>
+              <div>
+                <div>2+ Years</div>
+                <div class="chip-sub">Experience</div>
+              </div>
+            </div>
+            <div class="hero-chip chip-stack">
+              <span style="font-size: 1rem">⚛️</span>
+              <div>
+                <div>React / Next.js</div>
+                <div class="chip-sub">Primary Stack</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M12 5v14M5 12l7 7 7-7" /></svg
+        >Scroll
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <div class="about-img">
+              <img src="./assets/mypic2.jpg" alt="my-image" />
+              <div class="ac tl"></div>
+              <div class="ac br"></div>
+            </div>
+          </div>
+          <div class="about-content reveal rd1">
+            <span class="eyebrow">About Me</span>
+            <h2 class="section-title">
+              Crafting Interfaces<br /><em>With Purpose</em>
+            </h2>
+            <p class="about-text">
+              I'm a passionate Frontend Developer with a First Class degree in
+              Computer Science from Kogi State University. I specialise in
+              building scalable, production-ready web applications with a sharp
+              eye for design details and performance.
+            </p>
+            <p class="about-text">
+              From hospital SaaS platforms to AI-powered collaboration tools, I
+              bring UI/UX designs to life using React, Next.js and TypeScript —
+              always with clean, maintainable code at the core.
+            </p>
+            <div class="about-stats">
+              <div>
+                <div class="stat-num">2+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div>
+                <div class="stat-num">6+</div>
+                <div class="stat-label">Projects Shipped</div>
+              </div>
+              <div>
+                <div class="stat-num">1st</div>
+                <div class="stat-label">Class Honours</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="skills-header">
+          <div class="reveal">
+            <span class="eyebrow">Toolkit</span>
+            <h2 class="section-title">Technical<br />Skills</h2>
+          </div>
+          <p class="skills-intro reveal rd1">
+            A curated stack I use to build fast, accessible, and visually
+            polished web experiences — continuously evolving alongside the
+            frontend landscape.
+          </p>
+        </div>
+        <div class="skills-grid reveal rd2">
+          <div class="skill-item">
+            <i data-lucide="file-braces-corner" style="font-size: 1rem"></i>
+            <p class="skill-cat">Languages</p>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span
+              ><span class="skill-tag">TypeScript</span
+              ><span class="skill-tag">HTML5</span
+              ><span class="skill-tag">CSS3</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">⚛️</span>
+            <p class="skill-cat">Frameworks</p>
+            <div class="skill-tags">
+              <span class="skill-tag">React.js</span
+              ><span class="skill-tag">Next.js</span
+              ><span class="skill-tag">Vue.js</span
+              ><span class="skill-tag">React Native</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="bi bi-css"></i>
+            <p class="skill-cat">Styling</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Tailwind CSS</span
+              ><span class="skill-tag">Shadcn/ui</span
+              ><span class="skill-tag">SCSS</span
+              ><span class="skill-tag">Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <i class="bi bi-tools"></i>
+            <p class="skill-cat">Tools &amp; Platforms</p>
+            <div class="skill-tags">
+              <span class="skill-tag">Git / GitHub</span
+              ><span class="skill-tag">Vercel</span
+              ><span class="skill-tag">Figma</span
+              ><span class="skill-tag">Supabase</span
+              ><span class="skill-tag">Convex</span
+              ><span class="skill-tag">WordPress</span>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-icon">🚀</span>
+            <p class="skill-cat">Practices</p>
+            <div class="skill-tags">
+              <span class="skill-tag">REST APIs</span
+              ><span class="skill-tag">Responsive Design</span
+              ><span class="skill-tag">Accessibility</span
+              ><span class="skill-tag">SEO</span
+              ><span class="skill-tag">Agile / Kanban</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <div class="exp-layout">
+          <div class="exp-sidebar reveal">
+            <span class="eyebrow">Career</span>
+            <h2 class="section-title">Work<br />Experience</h2>
+            <p>
+              Hands-on roles building real products — from hospital SaaS systems
+              to AI-powered collaboration platforms.
+            </p>
+            <div class="exp-tabs" role="tablist">
+              <button class="exp-tab active" data-panel="e1">Atrizult</button>
+              <button class="exp-tab" data-panel="e2">Emerj LLC</button>
+              <button class="exp-tab" data-panel="e3">HNG Internship</button>
+            </div>
+          </div>
+          <div class="exp-panels reveal rd1">
+            <div class="exp-panel active" id="e1">
+              <div class="exp-meta">
+                <span class="exp-badge period">Nov 2024 — Present</span
+                ><span class="exp-badge type">Full-time</span>
+              </div>
+              <h3 class="exp-role">Front-End Developer &amp; IT Consultant</h3>
+              <p class="exp-company">Atrizult IT Practical Consulting Firm</p>
+              <div class="exp-divider"></div>
+              <ul class="exp-bullets">
+                <li>
+                  Designed a modular filter component for a hospital SaaS app
+                  enabling doctors and admins to sort and search lab orders via
+                  URL query parameters.
+                </li>
+                <li>
+                  Built and optimised the hospital website's Service Page with a
+                  clean, responsive layout that improved UX.
+                </li>
+                <li>
+                  Integrated REST API endpoints for data retrieval, filtering,
+                  and pagination ensuring seamless frontend–backend
+                  communication.
+                </li>
+                <li>
+                  Developed reusable React &amp; TypeScript components —
+                  dropdowns, inputs, navbars — improving scalability across
+                  projects.
+                </li>
+                <li>
+                  Improved app performance through debugging, refactoring, and
+                  implementing error handling and form validation.
+                </li>
+                <li>
+                  Collaborated with product and PM teams on invoicing and sales
+                  management features including custom pagination.
+                </li>
+                <li>
+                  Worked in an Agile Kanban environment to manage sprints and
+                  ensure timely delivery.
+                </li>
+              </ul>
+            </div>
+
+            <div class="exp-panel" id="e2">
+              <div class="exp-meta">
+                <span class="exp-badge period">Dec 2025 — Jan 2026</span
+                ><span class="exp-badge type">Volunteer</span>
+              </div>
+              <h3 class="exp-role">Frontend Developer</h3>
+              <p class="exp-company">Emerj LLC — via HNG Incubator</p>
+              <div class="exp-divider"></div>
+              <ul class="exp-bullets">
+                <li>
+                  Contributed to ZeduChat — a collaborative productivity
+                  platform with Slack-style communication, AI-driven automation,
+                  and cloud-based document collaboration.
+                </li>
+                <li>
+                  Translated product requirements into responsive, user-friendly
+                  interfaces alongside a cross-functional team.
+                </li>
+                <li>
+                  Participated in iterative feedback cycles, refining UI
+                  components based on team reviews.
+                </li>
+                <li>
+                  Managed sprints and tracked tasks using ClickUp in an Agile
+                  environment.
+                </li>
+              </ul>
+            </div>
+
+            <div class="exp-panel" id="e3">
+              <div class="exp-meta">
+                <span class="exp-badge period">Oct — Dec 2025</span
+                ><span class="exp-badge type">Internship · Finalist</span>
+              </div>
+              <h3 class="exp-role">Frontend Developer</h3>
+              <p class="exp-company">HNG Internship</p>
+              <div class="exp-divider"></div>
+              <ul class="exp-bullets">
+                <li>
+                  Built a ticket management system using React, Vue, and Twig —
+                  create, track, and resolve support tickets.
+                </li>
+                <li>
+                  Built a lightweight social networking mobile app with React
+                  Native featuring posting, feeds, and user interactions.
+                </li>
+                <li>
+                  Co-built ZeduChat with a cross-functional team — real-time
+                  communication, AI automation, and document collaboration.
+                </li>
+                <li>
+                  Developed an onboarding platform guiding new users through
+                  setup steps with a smooth, intuitive flow.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="projects-header reveal">
+          <div>
+            <span class="eyebrow">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-ghost"
+          >
+            View All on GitHub
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <path d="M7 17L17 7M7 7h10v10" />
+            </svg>
+          </a>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-thumb" style="height: 220px">
+              <svg
+                class="ptn"
+                viewBox="0 0 600 220"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <pattern
+                    id="pt1"
+                    x="0"
+                    y="0"
+                    width="40"
+                    height="40"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <circle cx="20" cy="20" r="1" fill="#0EA5E9" />
+                  </pattern>
+                </defs>
+                <rect width="600" height="220" fill="url(#pt1)" />
+                <circle
+                  cx="150"
+                  cy="110"
+                  r="80"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+                <circle
+                  cx="150"
+                  cy="110"
+                  r="120"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.3"
+                />
+                <circle
+                  cx="450"
+                  cy="80"
+                  r="60"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+              </svg>
+              <img src="/assets/zedu-chat.png" alt="zedu-chat-screenshot" />
+              <span class="proj-hint">Add screenshot →</span>
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">Next.js</span
+                ><span class="stack-tag">TailwindCSS</span
+                ><span class="stack-tag">Shadcn/ui</span
+                ><span class="stack-tag">AI Integration</span>
+              </div>
+              <h3 class="project-name">ZeduChat — AI Collaboration Platform</h3>
+              <p class="project-desc">
+                A collaborative productivity platform combining Slack-style
+                real-time communication, AI-driven workflow automation, and
+                cloud-based document collaboration. Built real-time UI and AI
+                agent components for document generation and workflow
+                coordination.
+              </p>
+              <div class="project-links">
+                <a
+                  target="_blank"
+                  href="https://zedu.chat/"
+                  class="project-link"
+                  >Live Demo
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://github.com/telexorg/"
+                  class="project-link"
+                  >GitHub
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal rd1">
+            <div class="project-thumb">
+              <svg
+                class="ptn"
+                viewBox="0 0 300 180"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <pattern
+                    id="pt2"
+                    x="0"
+                    y="0"
+                    width="30"
+                    height="30"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <rect x="14" y="14" width="2" height="2" fill="#0EA5E9" />
+                  </pattern>
+                </defs>
+                <rect width="300" height="180" fill="url(#pt2)" />
+                <rect
+                  x="40"
+                  y="40"
+                  width="100"
+                  height="70"
+                  rx="4"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="160"
+                  y="60"
+                  width="100"
+                  height="70"
+                  rx="4"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+              </svg>
+              <img src="/assets/hps.png" alt="health-mgt-screenshot" />
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">React</span
+                ><span class="stack-tag">TypeScript</span
+                ><span class="stack-tag">SCSS</span>
+              </div>
+              <h3 class="project-name">Hospital Management Web App</h3>
+              <p class="project-desc">
+                Comprehensive SaaS for invoicing, sales, lab orders, and patient
+                workflows. Advanced URL-based filtering, custom pagination, and
+                dynamic data handling.
+              </p>
+              <div class="project-links">
+                <a
+                  target="_blank"
+                  href="https://dev.healthprosuite.com/"
+                  class="project-link"
+                  >Live Demo
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal rd2">
+            <div class="project-thumb">
+              <svg
+                class="ptn"
+                viewBox="0 0 300 180"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <pattern
+                    id="pt3"
+                    x="0"
+                    y="0"
+                    width="20"
+                    height="20"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <line
+                      x1="0"
+                      y1="20"
+                      x2="20"
+                      y2="0"
+                      stroke="#0EA5E9"
+                      stroke-width="0.3"
+                    />
+                  </pattern>
+                </defs>
+                <rect width="300" height="180" fill="url(#pt3)" />
+                <circle
+                  cx="150"
+                  cy="90"
+                  r="50"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.6"
+                />
+              </svg>
+              <img src="/assets/tourify.png" alt="tourify-screenshot" />
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">Next.js</span
+                ><span class="stack-tag">Shadcn/ui</span>
+              </div>
+              <h3 class="project-name">Onboarding Web App</h3>
+              <p class="project-desc">
+                Multi-step onboarding platform guiding new users through setup
+                with a smooth, intuitive flow. Contributed to UI design,
+                component development, and overall UX.
+              </p>
+              <div class="project-links">
+                <a
+                  target="_blank"
+                  href="https://tour-app-virid-kappa.vercel.app/"
+                  class="project-link"
+                  >Live Demo
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal rd1">
+            <div class="project-thumb">
+              <svg
+                class="ptn"
+                viewBox="0 0 300 180"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <pattern
+                    id="pt4"
+                    x="0"
+                    y="0"
+                    width="24"
+                    height="24"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <circle cx="12" cy="12" r="0.8" fill="#0EA5E9" />
+                  </pattern>
+                </defs>
+                <rect width="300" height="180" fill="url(#pt4)" />
+                <rect
+                  x="30"
+                  y="30"
+                  width="240"
+                  height="28"
+                  rx="3"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="30"
+                  y="68"
+                  width="240"
+                  height="28"
+                  rx="3"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+                <rect
+                  x="30"
+                  y="106"
+                  width="240"
+                  height="28"
+                  rx="3"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.5"
+                />
+              </svg>
+              <img src="/assets/ticket.png" alt="tickets-app-screenshot" />
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">React</span
+                ><span class="stack-tag">Vue</span
+                ><span class="stack-tag">Tailwind</span>
+              </div>
+              <h3 class="project-name">Ticket Management System</h3>
+              <p class="project-desc">
+                Same ticket management UI built in both React and Vue — a
+                framework-versatility showcase. Full CRUD: create, track, and
+                resolve support tickets with responsive design.
+              </p>
+              <div class="project-links">
+                <a
+                  target="_blank"
+                  href="https://trackdesk-react.vercel.app/"
+                  class="project-link"
+                  >React App
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://github.com/Dcomputer22/trackdesk-react"
+                  class="project-link"
+                  >Github
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal rd2">
+            <div class="project-thumb">
+              <svg
+                class="ptn"
+                viewBox="0 0 300 180"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <pattern
+                    id="pt5"
+                    x="0"
+                    y="0"
+                    width="16"
+                    height="16"
+                    patternUnits="userSpaceOnUse"
+                  >
+                    <rect x="7" y="7" width="2" height="2" fill="#0EA5E9" />
+                  </pattern>
+                </defs>
+                <rect width="300" height="180" fill="url(#pt5)" />
+                <rect
+                  x="60"
+                  y="40"
+                  width="180"
+                  height="100"
+                  rx="6"
+                  fill="none"
+                  stroke="#0EA5E9"
+                  stroke-width="0.6"
+                />
+                <line
+                  x1="60"
+                  y1="68"
+                  x2="240"
+                  y2="68"
+                  stroke="#0EA5E9"
+                  stroke-width="0.4"
+                />
+              </svg>
+              <img src="/assets/hospital.png" alt="hospital-screenshot" />
+            </div>
+            <div class="project-body">
+              <div class="project-stack">
+                <span class="stack-tag">WordPress</span
+                ><span class="stack-tag">SEO</span>
+              </div>
+              <h3 class="project-name">Hospital Website</h3>
+              <p class="project-desc">
+                Homepage, services page, contact form, and donation page to
+                boost hospital visibility and patient engagement — clean,
+                accessible WordPress build.
+              </p>
+              <div class="project-links">
+                <a
+                  target="_blank"
+                  href="https://akuluehospital.org.ng/"
+                  class="project-link"
+                  >Live Site
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                  >
+                    <path d="M7 17L17 7M7 7h10v10" /></svg
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div style="margin-bottom: 4rem" class="reveal">
+          <span class="eyebrow">Credentials</span>
+          <h2 class="section-title">Education &amp;<br />Certifications</h2>
+        </div>
+        <div class="edu-grid">
+          <div class="reveal">
+            <p class="edu-col-title">Education</p>
+            <div class="edu-card">
+              <div class="edu-icon">🎓</div>
+              <div>
+                <p class="edu-name">
+                  B.Sc. Computer Science — First Class Honours
+                </p>
+                <p class="edu-meta">
+                  Kogi State University, Anyigba · 2019 – 2023
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal rd1">
+            <p class="edu-col-title">Certifications — IBM</p>
+            <div class="edu-card">
+              <div class="edu-icon">🏅</div>
+              <div>
+                <p class="edu-name">
+                  Introduction to Software Engineering (with Honors)
+                </p>
+                <p class="edu-meta">IBM</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon">🏅</div>
+              <div>
+                <p class="edu-name">Introduction to HTML, CSS and JavaScript</p>
+                <p class="edu-meta">IBM</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon">🏅</div>
+              <div>
+                <p class="edu-name">
+                  Designing User Interfaces &amp; Experiences (UI/UX)
+                </p>
+                <p class="edu-meta">IBM</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <div class="edu-icon">🏅</div>
+              <div>
+                <p class="edu-name">
+                  Getting Started with Front-End &amp; Web Development
+                </p>
+                <p class="edu-meta">IBM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-text reveal">
+            <span class="eyebrow">Get In Touch</span>
+            <h2 class="section-title">
+              Let's Build<br /><em>Something Great</em>
+            </h2>
+            <p>
+              I'm open to new opportunities — full-time roles, freelance
+              projects, or collaborations. If you have an interesting problem to
+              solve, I'd love to hear about it.
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-ico">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <a href="mailto:fatimaoyiza18@gmail.com"
+                  >fatimaoyiza18@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <div class="contact-ico">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 2 2 0 012 .18h3a2 2 0 012 1.72c.1.72.28 1.43.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c1.38.42 2.09.6 2.81.7A2 2 0 0122 14.92z"
+                    />
+                  </svg>
+                </div>
+                <a href="tel:+2348069226824">+234 806 922 6824</a>
+              </div>
+              <div class="contact-item">
+                <div class="contact-ico">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <span>Enugu State, Nigeria</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/Dcomputer22"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/fatima-jimoh-4259a0257/"
+                target="_blank"
+                rel="noopener"
+                class="social-link"
+                aria-label="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <form
+            action="https://formspree.io/f/mreyodrb"
+            method="post"
+            class="contact-form reveal rd1"
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="firstname">First Name</label
+                ><input
+                  name="firstname"
+                  class="form-input"
+                  type="text"
+                  id="firstname"
+                  placeholder="Jane"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="lastname">Last Name</label
+                ><input
+                  name="lastname"
+                  class="form-input"
+                  type="text"
+                  id="lastname"
+                  placeholder="Smith"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label
+              ><input
+                name="email"
+                class="form-input"
+                type="email"
+                id="email"
+                placeholder="jane@company.com"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="subject">Subject</label
+              ><input
+                name="subject"
+                class="form-input"
+                type="text"
+                id="subject"
+                placeholder="Let's work together"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label
+              ><textarea
+                name="message"
+                class="form-textarea"
+                id="message"
+                placeholder="Tell me about your project or opportunity..."
+              ></textarea>
+            </div>
+            <button class="btn btn-primary form-submit">
+              Send Message
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-inner">
+        <a href="#hero" class="footer-logo">FOJ<span>.</span></a>
+        <nav class="footer-links">
+          <a href="#about">About</a><a href="#skills">Skills</a
+          ><a href="#experience">Experience</a><a href="#projects">Projects</a
+          ><a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">© 2026 Fatima Oyiza Jimoh</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
