@@ -1165,35 +1165,12 @@ footer {
 .footer-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.footer-logo {
-  font-family: var(--serif);
-  font-size: 1.2rem;
-  color: var(--t2);
-}
-.footer-logo span {
-  color: var(--accent);
-}
-.footer-links {
-  display: flex;
-  gap: 2rem;
-}
-.footer-links a {
-  font-size: 0.7rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--t3);
-  transition: color 0.2s;
-}
-.footer-links a:hover {
-  color: var(--accentlt);
-}
 .footer-copy {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   color: var(--t3);
 }
 
