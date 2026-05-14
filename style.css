@@ -346,7 +346,7 @@ nav {
   color: var(--accent);
 }
 .hero-role {
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 600;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -615,7 +615,7 @@ nav {
 }
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -645,13 +645,8 @@ nav {
 .skill-item:hover::before {
   width: 100%;
 }
-.skill-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.75rem;
-  display: block;
-}
 .skill-cat {
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -664,7 +659,7 @@ nav {
   gap: 6px;
 }
 .skill-tag {
-  font-size: 0.72rem;
+  font-size: 0.9rem;
   font-weight: 500;
   padding: 4px 10px;
   background: rgba(14, 165, 233, 0.08);
